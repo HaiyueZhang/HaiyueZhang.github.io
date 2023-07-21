@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Narrative Visualization</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+    <script src="https://d3js.org/d3-annotation.v2.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>
+      UIUC CS 416 - Narrative Visualization - The Covid-19 cases in New York
+    </h1>
+    <h2>By Haiyue Zhang</h2>
+    <p>
+      My narrative visualization project displays the line chart of Covid-19
+      cases in New York from <strong>2021-01-23</strong> to
+      <strong>2022-02-23</strong>. This period exhibits significant
+      fluctuations, which allows us to observe the trends and changes during
+      this period.
+    </p>
+    <p>
+      Here are five scenes. To be specific, four of them represent different
+      time intervals, each showcasing distinct trend types which are
+      <strong>Recession</strong>, <strong>Plateau</strong>,
+      <strong>Fluctuating</strong>, and <strong>Surge, Plummeting</strong>.
+      Also, the fifth scene provides an overview of the
+      <strong>entire</strong> period.
+    </p>
+    <div class="buttons">
+      <!-- Add a container for the buttons and apply the buttons class here -->
+      <button id="button1">Scene 1: Recession</button>
+      <button id="button2">Scene 2: Plateau</button>
+      <button id="button3">Scene 3: Fluctuating</button>
+      <button id="button4">Scene 4: Surge, Plummeting</button>
+      <button id="button5">Entire Line Chart</button>
+    </div>
+    <div id="scene-1" class="scene"></div>
+    <div id="scene-2" class="scene"></div>
+    <div id="scene-3" class="scene"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

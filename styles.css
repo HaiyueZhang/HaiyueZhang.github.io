@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.scene {
+  margin-bottom: 2em;
+}
+.annotation-group text {
+  font-size: 0.8em;
+  fill: #333;
+}
+p {
+  margin-bottom: 2em;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+svg {
+  display: block;
+  margin: auto;
+}
+.dot {
+  fill: #ffab00;
+  stroke: #fff;
+}
